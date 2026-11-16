@@ -7,10 +7,10 @@ Requirements:
     pip install -U yt-dlp
 
 Examples:
-    python yt_subtitles.py https://www.youtube.com/@ChannelName
-    python yt_subtitles.py @ChannelName --languages it en --output subtitles
-    python yt_subtitles.py @ChannelName --cookies-browser firefox --pause 5
-    python yt_subtitles.py @ChannelName --no-auto --keep-vtt
+    python yt-channel-download-subtitles.py https://www.youtube.com/@ChannelName
+    python yt-channel-download-subtitles.py @ChannelName --languages it en --output subtitles
+    python yt-channel-download-subtitles.py @ChannelName --cookies-browser firefox --pause 5
+    python yt-channel-download-subtitles.py @ChannelName --no-auto --keep-vtt
 """
 
 import argparse
